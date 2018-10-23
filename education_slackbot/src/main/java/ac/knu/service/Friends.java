@@ -1,18 +1,19 @@
 package ac.knu.service;
 
 public class Friends {
-    String name, sex;
+    String name;
+    Gender gender;
     int age;
-    public Friends (String n, String s, int a) {
+    public Friends (String n, Gender g, int a) {
         name = n;
-        sex = s;
+        gender = g;
         age = a;
     }
     public String getName() {
         return name;
     }
-    public String getSex() {
-        return sex;
+    public Gender getGender() {
+        return gender;
     }
     public int getAge() {
         return age;
