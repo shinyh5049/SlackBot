@@ -15,4 +15,7 @@ public class FriendsTest {
     public void sample_test_name() {
         assertTrue(friends.getName().equals("ds"));
     }
+
+    @Test
+    public void sample_test_gender() { assertTrue(friends.getGender() == Gender.MAN);}
 }

@@ -3,6 +3,8 @@ package ac.knu.service;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 @Service
@@ -52,6 +54,12 @@ public class CommandParsingService {
             if (friendslist.isEmpty()) {
                 return "친구가 없습니다.";
             } else {
+                Collections.sort(friendslist, new Comparator<Friends>() {
+                    @Override
+                    public int compare(Friends o1, Friends o2) {
+                        return o1.getName().compareTo(o2.getName());
+                    }
+                });
                 for (int i = 0; i < friendslist.size(); i++) {
                     str += friendslist.get(i).getName() + " " + friendslist.get(i).getGender() + " " + friendslist.get(i).getAge() + "\n";
                 }
