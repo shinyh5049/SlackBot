@@ -184,8 +184,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-399">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -493,9 +493,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CommandParsingServiceTest_find_Friends - 2018.10.26 at 01h 20m 32s.xml">
-      <configuration name="CommandParsingServiceTest.find_Friends" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CommandParsingServiceTest_find_Friends - 2018.10.26 at 01h 21m 59s.xml">
       <configuration name="CommandParsingServiceTest.find_Friends" configurationId="JUnit" />
     </history-entry>
@@ -523,6 +520,9 @@
     <history-entry file="CommandParsingServiceTest - 2018.10.26 at 01h 38m 55s.xml">
       <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CommandParsingServiceTest - 2018.10.26 at 01h 43m 05s.xml">
+      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,9 +535,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -546,7 +545,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3366174" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3366174" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -679,8 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
