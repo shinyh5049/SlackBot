@@ -27,6 +27,20 @@ public class CommandParsingService {
         String str = "";
 
         if (result[1].equals(commandlist.get(0))) {
+            if(friendslist.size()<=10) {
+                String name = result[2];
+                Gender g;
+                if (result[3] == "MAN") {
+                    g = Gender.MAN;
+                } else{
+                    g = Gender.WOMEN;
+                }
+                int age = Integer.parseInt(result[4]);
+                Friends friend = new Friends(name, g, age);
+                friendslist.add(friend);
+            }
+            else
+                return "리스트가 꽉 찼습니다.";
             return "addFriends";
         } else if (result[1].equals(commandlist.get(1))) {
             if (friendslist.isEmpty()) {
