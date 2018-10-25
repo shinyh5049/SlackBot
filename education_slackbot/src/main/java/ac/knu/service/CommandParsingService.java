@@ -14,10 +14,13 @@ public class CommandParsingService {
         commandlist.add("list");
         commandlist.add("remove");
         commandlist.add("find");
+        /*
+        리스트 예시
         Friends f1 = new Friends("6조", Gender.MAN, 15);
         Friends f2 = new Friends("경호", Gender.MAN, 24);
         friendslist.add(f1);
         friendslist.add(f2);
+        */
 
     }
 
@@ -55,7 +58,13 @@ public class CommandParsingService {
         } else if (result[1].equals(commandlist.get(2))) {
             return "friendsRemove";
         } else if (result[1].equals(commandlist.get(3))) {
-            return "findFriends";
+            //find sonmeone
+            for(int i=0;i<friendslist.size();i++){
+                if(result[2].equals( friendslist.get(i).name))
+                    return friendslist.get(i).getName() + " " + friendslist.get(i).getGender() + " " + friendslist.get(i).getAge() + "\n";
+            }
+
+            return "There is no Data";
         }
         return "failed";
     }
