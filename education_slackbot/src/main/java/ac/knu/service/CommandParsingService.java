@@ -33,11 +33,14 @@ public class CommandParsingService {
         if (result[1].equals(commandlist.get(0))) {
             if (friendslist.size() <= 10) {
                 String name = result[2];
-                Gender g;
-                if (result[3] == "MAN") {
+                Gender g = Gender.MAN;
+                if (result[3].equalsIgnoreCase("MAN")) {
                     g = Gender.MAN;
-                } else {
+                } else if (result[3].equalsIgnoreCase("WOMEN")){
                     g = Gender.WOMEN;
+                }
+                else {
+                    return "잘못된 입력값입니다.";
                 }
                 int age = Integer.parseInt(result[4]);
                 Friends friend = new Friends(name, g, age);
@@ -58,16 +61,20 @@ public class CommandParsingService {
             String name = result[2];
             if (friendslist.size() <= 0) {
                 return "친구목록이 비어있습니다.";
-            } else if (friendslist.contains(name)) {
-                for (int i = 0; i < friendslist.size(); i++) {
-                    if (name.equalsIgnoreCase(friendslist.get(i).getName())) {
-                        friendslist.remove(i);
-                        return "친구목록에서 " + name + "이 삭제되었습니다.";
+            }
+            else {
+                for (int n = 0; n < friendslist.size(); n++) {
+                    if (friendslist.get(n).getName().equalsIgnoreCase(name)) {
+                        for (int i = 0; i < friendslist.size(); i++) {
+                            if (name.equalsIgnoreCase(friendslist.get(i).getName())) {
+                                friendslist.remove(i);
+                                return "친구목록에서 " + name + "이 삭제되었습니다.";
+                            }
+                        }
                     }
                 }
-            } else {
-                return "친구목록에 " + name + "이 없습니다.";
             }
+                return "친구목록에 " + name + "이 없습니다.";
         } else if (result[1].equals(commandlist.get(3))) {
             //find sonmeone
             for (int i = 0; i < friendslist.size(); i++) {

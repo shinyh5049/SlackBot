@@ -9,8 +9,5 @@
         <module name="slackbot" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="slackbot" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
