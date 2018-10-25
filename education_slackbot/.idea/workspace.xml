@@ -134,12 +134,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1021" />
+          <entry key="java" value="1898" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1021" />
+          <entry key="JAVA" value="1898" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -161,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="34" />
+            <state relative-caret-position="221">
+              <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1908#1909#0" expanded="true" />
@@ -184,8 +184,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="893">
+              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -253,8 +253,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/SlackBotApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/Friends.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/Gender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/FriendsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" />
       </list>
     </option>
@@ -384,19 +384,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.CommandParsingServiceTest">
-    <configuration name="Friends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ac.knu.service.Friends" />
-      <module name="slackbot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.knu.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SlackBotApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ac.knu.SlackBotApplication" />
       <module name="slackbot" />
@@ -427,6 +414,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CommandParsingServiceTest.add_Friends" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="slackbot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.knu.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.knu.service" />
+      <option name="MAIN_CLASS_NAME" value="ac.knu.service.CommandParsingServiceTest" />
+      <option name="METHOD_NAME" value="add_Friends" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandParsingServiceTest.find_Friends" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="slackbot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.knu.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.knu.service" />
+      <option name="MAIN_CLASS_NAME" value="ac.knu.service.CommandParsingServiceTest" />
+      <option name="METHOD_NAME" value="find_Friends" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FriendsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="slackbot" />
       <extension name="coverage">
@@ -443,38 +462,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FriendsTest.sample_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="slackbot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.knu.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ac.knu.service" />
-      <option name="MAIN_CLASS_NAME" value="ac.knu.service.FriendsTest" />
-      <option name="METHOD_NAME" value="sample_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.CommandParsingServiceTest" />
       <item itemvalue="Application.SlackBotApplication" />
       <item itemvalue="JUnit.FriendsTest" />
-      <item itemvalue="JUnit.FriendsTest.sample_test" />
-      <item itemvalue="Application.Friends" />
+      <item itemvalue="JUnit.CommandParsingServiceTest.find_Friends" />
+      <item itemvalue="JUnit.CommandParsingServiceTest.add_Friends" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CommandParsingServiceTest" />
+        <item itemvalue="JUnit.CommandParsingServiceTest.add_Friends" />
+        <item itemvalue="JUnit.CommandParsingServiceTest.find_Friends" />
         <item itemvalue="JUnit.FriendsTest" />
         <item itemvalue="Application.SlackBotApplication" />
-        <item itemvalue="Application.Friends" />
-        <item itemvalue="JUnit.FriendsTest.sample_test" />
       </list>
     </recent_temporary>
   </component>
@@ -492,35 +493,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CommandParsingServiceTest - 2018.10.26 at 00h 33m 05s.xml">
+    <history-entry file="CommandParsingServiceTest_find_Friends - 2018.10.26 at 01h 13m 15s.xml">
+      <configuration name="CommandParsingServiceTest.find_Friends" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParsingServiceTest_find_Friends - 2018.10.26 at 01h 20m 32s.xml">
+      <configuration name="CommandParsingServiceTest.find_Friends" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParsingServiceTest_find_Friends - 2018.10.26 at 01h 21m 59s.xml">
+      <configuration name="CommandParsingServiceTest.find_Friends" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParsingServiceTest_find_Friends - 2018.10.26 at 01h 25m 49s.xml">
+      <configuration name="CommandParsingServiceTest.find_Friends" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParsingServiceTest_add_Friends - 2018.10.26 at 01h 28m 01s.xml">
+      <configuration name="CommandParsingServiceTest.add_Friends" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParsingServiceTest_add_Friends - 2018.10.26 at 01h 35m 12s.xml">
+      <configuration name="CommandParsingServiceTest.add_Friends" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParsingServiceTest_add_Friends - 2018.10.26 at 01h 35m 41s.xml">
+      <configuration name="CommandParsingServiceTest.add_Friends" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParsingServiceTest - 2018.10.26 at 01h 37m 29s.xml">
       <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CommandParsingServiceTest - 2018.10.26 at 00h 34m 00s.xml">
-      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
+    <history-entry file="CommandParsingServiceTest_add_Friends - 2018.10.26 at 01h 38m 05s.xml">
+      <configuration name="CommandParsingServiceTest.add_Friends" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CommandParsingServiceTest - 2018.10.26 at 00h 35m 42s.xml">
-      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandParsingServiceTest - 2018.10.26 at 00h 36m 41s.xml">
-      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandParsingServiceTest - 2018.10.26 at 00h 38m 59s.xml">
-      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandParsingServiceTest - 2018.10.26 at 00h 41m 11s.xml">
-      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandParsingServiceTest - 2018.10.26 at 00h 43m 33s.xml">
-      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandParsingServiceTest - 2018.10.26 at 00h 45m 17s.xml">
-      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandParsingServiceTest - 2018.10.26 at 00h 46m 08s.xml">
-      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandParsingServiceTest - 2018.10.26 at 00h 47m 27s.xml">
-      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
+    <history-entry file="CommandParsingServiceTest_add_Friends - 2018.10.26 at 01h 38m 36s.xml">
+      <configuration name="CommandParsingServiceTest.add_Friends" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -666,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="34" />
+        <state relative-caret-position="221">
+          <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1908#1909#0" expanded="true" />
@@ -678,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="893">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

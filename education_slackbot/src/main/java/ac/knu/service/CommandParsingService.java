@@ -82,7 +82,7 @@ public class CommandParsingService {
                     }
                 }
             }
-                return "친구목록에 " + name + "이 없습니다.";
+            return "친구목록에 " + name + "이 없습니다.";
         } else if (result[1].equals(commandlist.get(3))) {
             //find sonmeone
             for (int i = 0; i < friendslist.size(); i++) {
